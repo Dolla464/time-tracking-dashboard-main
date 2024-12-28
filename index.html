@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  
+  <!-- fontawesome css -->
+  <link rel="stylesheet" href="css/allfa.min.css">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- =========================================
+      user information
+      ========================================= -->
+      <div class="col-md-3">
+        <div class="userInfo">
+          <div class="userImage py-4">
+            <img src="images/image-jeremy.png" class="m-4 w-25 rounded-circle border border-white"
+              alt="Jeremy Robson Image">
+          </div>
+          <div class="userName lh-base">
+            <p class="m-4">Report for</p>
+            <h2 class="m-4 pb-5">Jeremy Robson</h2>
+          </div>
+        </div>
+        <div class="period">
+          <h6 class="m-3 pt-5 selected">Daily</h6>
+          <h6 class="m-3 my-4 selected">Weekly</h6>
+          <h6 class="m-3 pb-4 selected">Monthly</h6>
+        </div>
+      </div>
+
+      <!-- =========================================
+      work section
+      ========================================= -->
+      <div class="col-md-3">
+        <div class="row flex-column">
+          <div class="worklogo mx-3 py-5">
+
+          </div>
+          <div class="info mx-md-3">
+            <div class="title d-flex flex-row align-content-center justify-content-between">
+              <h5 class="text-left m-3">Work</h5>
+              <img src="images/icon-ellipsis.svg" class="dots m-3 p-3" alt="Ellipsis Image">
+            </div>
+            <div class="content">
+              <p class="mx-3 times">32hrs</p>
+              <span class="m-3 d-inline-block previous_text">Last Week</span> - <span class="previous"> 36hrs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- =========================================
+      exercise section
+      ========================================= -->
+        <div class="row flex-column mt-4">
+          <div class="exerciselogo mx-3 py-5">
+
+          </div>
+          <div class="info mx-3">
+            <div class="title d-flex flex-row align-content-center justify-content-between">
+              <h5 class="text-left m-3">Exercise</h5>
+              <img src="images/icon-ellipsis.svg" class="m-3 p-3" alt="Ellipsis Image">
+            </div>
+            <div class="content">
+              <p class="mx-3 times">4hrs</p>
+              <span class="m-3 d-inline-block previous_text">Last Week</span> - <span class="previous"> 5hrs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- =========================================
+      play section
+      ========================================= -->
+      <div class="col-md-3">
+        <div class="row flex-column">
+          <div class="playlogo mx-3 py-5">
+
+          </div>
+          <div class="info mx-3">
+            <div class="title d-flex flex-row align-content-center justify-content-between">
+              <h5 class="text-left m-3">Play</h5>
+              <img src="images/icon-ellipsis.svg" class="m-3 p-3" alt="Ellipsis Image">
+            </div>
+            <div class="content">
+              <p class="mx-3 times">10hrs</p>
+              <span class="m-3 d-inline-block previous_text">Last Week</span> - <span class="previous"> 8hrs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- =========================================
+      social section
+      ========================================= -->
+        <div class="row flex-column mt-4">
+          <div class="sociallogo mx-3 py-5">
+
+          </div>
+          <div class="info mx-3">
+            <div class="title d-flex flex-row align-content-center justify-content-between">
+              <h5 class="text-left m-3">Social</h5>
+              <img src="images/icon-ellipsis.svg" class="m-3 p-3" alt="Ellipsis Image">
+            </div>
+            <div class="content">
+              <p class="mx-3 times">5hrs</p>
+              <span class="m-3 d-inline-block previous_text">Last Week</span> - <span class="previous"> 10hrs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- =========================================
+      study section
+      ========================================= -->
+      <div class="col-md-3">
+        <div class="row flex-column">
+          <div class="studylogo mx-3 py-5">
+
+          </div>
+          <div class="info mx-3">
+            <div class="title d-flex flex-row align-content-center justify-content-between">
+              <h5 class="text-left m-3">Study</h5>
+              <img src="images/icon-ellipsis.svg" class="m-3 p-3" alt="Ellipsis Image">
+            </div>
+            <div class="content">
+              <p class="mx-3 times">4hrs</p>
+              <span class="m-3 d-inline-block previous_text">Last Week</span> - <span class="previous"> 7hrs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- =========================================
+      self care section
+      ========================================= -->
+        <div class="row flex-column mt-4">
+          <div class="selfcarelogo mx-3 py-5">
+
+          </div>
+          <div class="info mx-3">
+            <div class="title d-flex flex-row align-content-center justify-content-between">
+              <h5 class="text-left m-3">Self Care</h5>
+              <img src="images/icon-ellipsis.svg" class="m-3 p-3" alt="Ellipsis Image">
+            </div>
+            <div class="content">
+              <p class="mx-3 times">2hrs</p>
+              <span class="m-3 d-inline-block previous_text">Last Week</span> - <span class="previous"> 2hrs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/Dolla464" target="_blank">Adel Abdel Monaem Ahmed</a>.
+  </footer>
+
+  <!-- fontawesome js  -->
+  <script src="js/all.min.js"></script>
+  <!-- jquery js  -->
+  <script src="js/jquery.slim.min.js"></script>
+  <!-- popper js  -->
+  <script src="js/popper.min.js"></script>
+  <!-- bootstrap js  -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- main js  -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
